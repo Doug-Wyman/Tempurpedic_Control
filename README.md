@@ -10,7 +10,7 @@ Each script sends the title command to a Tempurpedic adjustable bed frame.
  - bedheaddown.py  --- <i>Lower the upper body</i>
  - bedheadup.py    --- <i>Raise the upper body</i>
  - bedlegsdown.py  --- <i>Lower the legs</i>
- - bedlegsup.py    --- <i>Raise the upper legs</i>
+ - bedlegsup.py    --- <i>Raise the legs</i>
  - bedset1.py      --- <i>go to preset bed position 1</i>
  - bedset2.py      --- <i>go to preset bed position 2</i>
  - bedset3.py      --- <i>go to preset bed position 3</i>
