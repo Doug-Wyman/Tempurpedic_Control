@@ -6,10 +6,7 @@
 Tempurpedic control is a set of python scripts. 
 Each script sends the title command to a Tempurpedic adjustable bed frame.  
 
-
-These scripts are called
-by command line entities created in Home Assistant.
- - bedflat.py
+ - bedflat.py <i>lowers both head and feet</i>
  - bedheaddown.py
  - bedheadup.py
  - bedlegsdown.py
@@ -23,7 +20,8 @@ by command line entities created in Home Assistant.
  - bedvibrate3.py
  - bedvibrate4.py
  - bedvibrateoff.py
-
+These scripts are called by command line entities created in Home Assistant.
+ - controls.yaml
 The scripts use a hard coded IP address for the bed.
 Change the line in each file UDP_IP = "192.168.0.155"
 to the UDP_IP = <your local address>

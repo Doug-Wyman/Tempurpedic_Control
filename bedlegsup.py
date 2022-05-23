@@ -2,7 +2,7 @@ import socket
 
 UDP_IP = "192.168.0.155"
 UDP_PORT = 50007
-MESSAGE = b'\x33\x05\x32\x18\x94\x51\x01\x05\xc5'
+MESSAGE = b'\x33\x05\x32\x18\x94\x51\x01\x00\xc4'
 
 print("UDP target IP:", UDP_IP)
 print("UDP target port:", UDP_PORT)
