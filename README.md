@@ -6,24 +6,38 @@
 Tempurpedic control is a set of python scripts. 
 Each script sends the title command to a Tempurpedic adjustable bed frame.  
 
- - bedflat.py <i>lowers both head and feet</i>
- - bedheaddown.py
- - bedheadup.py
- - bedlegsdown.py
- - bedlegsup.py
- - bedset1.py
- - bedset2.py
- - bedset3.py
- - bedset4.py
- - bedvibrate1.py
- - bedvibrate2.py
- - bedvibrate3.py
- - bedvibrate4.py
- - bedvibrateoff.py
+ - bedflat.py      --- <i>lowers both head and feet</i>
+ - bedheaddown.py  --- <i>Lower the upper body</i>
+ - bedheadup.py    --- <i>Raise the upper body</i>
+ - bedlegsdown.py  --- <i>Lower the legs</i>
+ - bedlegsup.py    --- <i>Raise the upper legs</i>
+ - bedset1.py      --- <i>go to preset bed position 1</i>
+ - bedset2.py      --- <i>go to preset bed position 2</i>
+ - bedset3.py      --- <i>go to preset bed position 3</i>
+ - bedset4.py      --- <i>go to preset bed position 4</i>
+ - bedvibrate1.py  --- <i>go to preset vibration mode 1</i>
+ - bedvibrate2.py  --- <i>go to preset vibration mode 2</i>
+ - bedvibrate3.py  --- <i>go to preset vibration mode 3</i>
+ - bedvibrate4.py  --- <i>go to preset vibration mode 4</i>
+ - bedvibrateoff.py--- <i>Turn off all vibration</i>
+
 These scripts are called by command line entities created in Home Assistant.
  - controls.yaml
-The scripts use a hard coded IP address for the bed.
-Change the line in each file UDP_IP = "192.168.0.155"
-to the UDP_IP = <your local address>
+
+The scripts use a hard coded IP address for the bed. Change the line in each file 
+UDP_IP = "192.168.0.155"
+to the UDP_IP = [your local address]
+
+Tempurpedic has codes for 0 to 10 levels of vibration for each of the 
+three zones (upper body, hips and legs).  If I can find an easy way of
+implementing these 30 levels I will do so.  
+
+I wish there was a "command line light" entity.
+
+   Doug
+
+I'll be 80 years old Nov 2022 and would love it if some young hacker (the good kind)
+would fork off this into a good and more efficient set of scripts and entities.
+
 
  
