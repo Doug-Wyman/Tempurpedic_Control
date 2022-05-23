@@ -26,6 +26,8 @@ These scripts are called by command line entities created in Home Assistant.
 
 I've added the dashboard as a yaml file
  - dashboard.yaml  ---<i>The dashboard seen at the top of this readme.md
+
+
 The scripts use a hard coded IP address for the bed. Change the line in each file 
 UDP_IP = "192.168.0.155"
 to the UDP_IP = [your local address]
