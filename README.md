@@ -1,5 +1,5 @@
 # Tempurpedic Control
-<img src="images/capture.gif"
+<img src="https://github.com/Doug-Wyman/Tempurpedic_Control/blob/main/images/Capture.gif"
      alt="my screen"
      width="400"/>
 
