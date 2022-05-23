@@ -1,0 +1,23 @@
+views:
+  - theme: Backend-selected
+    title: Bed Control
+    badges: []
+    cards:
+      - type: entities
+        entities:
+          - entity: cover.bed_head_move
+            secondary_info: none
+            icon: mdi:seat-recline-extra
+          - entity: cover.bed_legs_move
+            secondary_info: none
+            icon: mdi:seat-legroom-extra
+          - entity: cover.bed_presets1
+            icon: mdi:bed-outline
+          - entity: cover.bed_presets2
+            icon: mdi:bed-outline
+          - entity: cover.bed_vibs1
+            icon: mdi:scent
+          - entity: cover.bed_vibs2
+            icon: mdi:scent
+            secondary_info: none
+        title: Tempurpedic Bed Controls
