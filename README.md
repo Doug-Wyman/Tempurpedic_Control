@@ -24,7 +24,9 @@ Each script sends the title command to a Tempurpedic adjustable bed frame.
 These scripts are called by command line entities created in Home Assistant.
  - controls.yaml
 
-I've added the dashboard as a yaml file
+I've added the dashboard as a yaml file and made more clear that the middle
+button in the cover control is FLAT for position and Vibration Off for vibes.
+
  - dashboard.yaml  ---<i>The dashboard seen at the top of this readme.md
 
 

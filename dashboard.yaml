@@ -1,6 +1,7 @@
 views:
   - theme: Backend-selected
     title: Bed Control
+    icon: mdi:bed
     badges: []
     cards:
       - type: entities
@@ -13,11 +14,15 @@ views:
             icon: mdi:seat-legroom-extra
           - entity: cover.bed_presets1
             icon: mdi:bed-outline
+            name: Position 1 ^ - Flat - 2 v
           - entity: cover.bed_presets2
             icon: mdi:bed-outline
+            name: Position 3 ^ -Flat - 4 v
           - entity: cover.bed_vibs1
             icon: mdi:scent
+            name: Vibrations 1 ^ - Vib Off - 2 v
           - entity: cover.bed_vibs2
             icon: mdi:scent
             secondary_info: none
+            name: Vibrations 3 ^ - Vib Off - 4 v
         title: Tempurpedic Bed Controls
