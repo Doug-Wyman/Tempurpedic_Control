@@ -1,5 +1,5 @@
 # Tempurpedic Control
-<img src="images/capture.jpg"
+<img src="images/capture.gif"
      alt="my screen"
      width="400"/>
 
