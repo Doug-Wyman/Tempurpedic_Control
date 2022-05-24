@@ -21,7 +21,8 @@ Each script sends the title command to a Tempurpedic adjustable bed frame.
  - bedvibrate4.py  --- <i>go to preset vibration mode 4</i>
  - bedvibrateoff.py--- <i>Turn off all vibration</i>
 
-These scripts are called by command line entities created in Home Assistant.
+These scripts are called by command_line platform cover entities 
+created in Home Assistant.
  - controls.yaml
 
 I've added the dashboard as a yaml file and made more clear that the middle
@@ -38,7 +39,7 @@ Tempurpedic has codes for 0 to 10 levels of vibration for each of the
 three zones (upper body, hips and legs).  If I can find an easy way of
 implementing these 30 levels I will do so.  
 
-I wish there was a "command line light" entity.
+I wish there was a "command_line platform light" entity.
 
    Doug
 
