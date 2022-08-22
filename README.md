@@ -37,7 +37,12 @@ to the UDP_IP = [your local address]
 
 Tempurpedic has codes for 0 to 10 levels of vibration for each of the 
 three zones (upper body, hips and legs).  If I can find an easy way of
-implementing these 30 levels I will do so.  
+implementing these 30 levels I will do so.  These codes are in the table of codes.
+
+     A BIG caveat...  One would think There would be a way of controlling more than
+     a single bed.  Thus the first few bytes may address a particular bed.  The program
+     queries the web page at port 80 and that page may have a prefix code.  I would do 
+     that if I were coding the program.  I only have one bed so I can't check it.
 
 I wish there was a "command_line platform light" entity.
 
