@@ -1,0 +1,142 @@
+views:
+  - theme: Backend-selected
+    title: Bed Control
+    icon: mdi:bed
+    badges: []
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_headup
+                icon: mdi:arrow-up-left
+                icon_height: 20px
+                name: Head Up
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_headdown
+                icon: mdi:arrow-down-left
+                icon_height: 20px
+                name: Head Down
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_legsup
+                icon: mdi:arrow-up-right
+                icon_height: 20px
+                name: Legs Up
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_legsdown
+                icon: mdi:arrow-down-right
+                icon_height: 20px
+                name: Legs Down
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_preset1
+                icon: mdi:numeric-1-circle
+                icon_height: 20px
+                name: Preset 1
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_preset2
+                icon: mdi:numeric-2-circle
+                icon_height: 20px
+                name: Preset 2
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_preset3
+                icon: mdi:numeric-3-circle
+                icon_height: 20px
+                name: Preset 3
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_preset4
+                icon: mdi:numeric-4-circle
+                icon_height: 20px
+                name: ' Preset 4'
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_vibrate1
+                icon: mdi:numeric-1-circle
+                icon_height: 20px
+                name: Vibrate 1
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_vibrate2
+                icon: mdi:numeric-2-circle
+                icon_height: 20px
+                name: Vibrate 2
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_vibrate2
+                icon: mdi:numeric-3-circle
+                icon_height: 20px
+                name: Vibrate 3
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_vibrate4
+                icon: mdi:numeric-4-circle
+                icon_height: 20px
+                name: Vibrate 4
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_flat
+                icon: mdi:bed
+                icon_height: 20px
+                name: Bed Flat
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: toggle
+                entity: switch.bed_vibratestop
+                icon: mdi:bed
+                icon_height: 20px
+                name: ' Vibrate Off'

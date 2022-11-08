@@ -1,0 +1,61 @@
+switch:
+  - platform: command_line
+    switches:
+      bed_flat:
+        unique_id: id_bed_flat
+        command_on: 'python3 tempurpedic/bedflat.py'
+        command_off: 'python3 tempurpedic/bedflat.py'
+
+      bed_headup:
+        unique_id: id_bed_headup
+        command_on: 'python3 tempurpedic/bedheadup.py'
+        command_off: 'python3 tempurpedic/bedheadup.py'
+
+      bed_headdown:
+        unique_id: id_bed_headdown
+        command_on: 'python3 tempurpedic/bedheaddown.py'
+        command_off: 'python3 tempurpedic/bedheaddown.py'
+      bed_legsup:
+        unique_id: id_bed_legsup
+        command_on: 'python3 tempurpedic/bedlegsup.py'
+        command_off: 'python3 tempurpedic/bedlegsup.py'
+      bed_legsdown:
+        unique_id: id_bed_legsdown
+        command_on: 'python3 tempurpedic/bedlegsdown.py'
+        command_off: 'python3 tempurpedic/bedlegsdown.py'
+      bed_preset1:
+        unique_id: id_bed_preset1
+        command_on: 'python3 tempurpedic/bedset1.py'
+        command_off: 'python3 tempurpedic/bedset1.py'
+      bed_preset2:
+        unique_id: id_bed_preset2
+        command_on: 'python3 tempurpedic/bedset2.py'
+        command_off: 'python3 tempurpedic/bedset2.py'
+      bed_preset3:
+        unique_id: id_bed_preset3
+        command_on: 'python3 tempurpedic/bedset3.py'
+        command_off: 'python3 tempurpedic/bedset3.py'
+      bed_preset4:
+        unique_id: id_bed_preset4
+        command_on: 'python3 tempurpedic/bedset4.py'
+        command_off: 'python3 tempurpedic/bedset4.py'
+      bed_vibrate1:
+        unique_id: id_bed_viberate1
+        command_on: 'python3 tempurpedic/bedvibrate1.py'
+        command_off: 'python3 tempurpedic/bedvibrate1.py'
+      bed_vibrate2:
+        unique_id: id_bed_viberate2
+        command_on: 'python3 tempurpedic/bedvibrate2.py'
+        command_off: 'python3 tempurpedic/bedvibrate2.py'
+      bed_vibrate3:
+        unique_id: id_bed_viberate3
+        command_on: 'python3 tempurpedic/bedvibrate3.py'
+        command_off: 'python3 tempurpedic/bedvibrate3.py'
+      bed_vibrate4:
+        unique_id: id_bed_viberate4
+        command_on: 'python3 tempurpedic/bedvibrate4.py'
+        command_off: 'python3 tempurpedic/bedvibrate4.py'
+      bed_vibratestop:
+        unique_id: id_bed_viberatestop
+        command_on: 'python3 tempurpedic/bedvibrateoff.py'
+        command_off: 'python3 tempurpedic/bedvibrateoff.py'

@@ -21,14 +21,17 @@ Each script sends the title command to a Tempurpedic adjustable bed frame.
  - bedvibrate4.py  --- <i>go to preset vibration mode 4</i>
  - bedvibrateoff.py--- <i>Turn off all vibration</i>
 
-These scripts are called by command_line platform cover entities 
-created in Home Assistant.
- - controls.yaml
+These scripts can be called by either command_line platform cover entities
+or command_line platform switch entities
+created in Home Assistant configuration.yaml
+ - covercontrols.yaml has the controls as a cover
+ - switchcontrols.yaml creates the controls as switches
 
-I've added the dashboard as a yaml file and made more clear that the middle
-button in the cover control is FLAT for position and Vibration Off for vibes.
+I've added two dashboards as yaml files. One has the controls as a
+cover entity.  The other uses the command line switch.
 
- - dashboard.yaml  ---<i>The dashboard seen at the top of this readme.md
+ - coverdashboard.yaml  ---<i>The dashboard seen at the top of this readme.md
+ - switchdashboard.yaml  ---<i>The dashboard seen at the top of this readme.md
 
 
 The scripts use a hard coded IP address for the bed. Change the line in each file 
