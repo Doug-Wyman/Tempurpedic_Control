@@ -12,8 +12,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_headup
+                  action: call-service
+                  service: pyscript.bed_head_up
                 icon: mdi:arrow-up-left
                 icon_height: 20px
                 name: Head Up
@@ -21,8 +21,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_headdown
+                  action: call-service
+                  service: pyscript.bed_head_down
                 icon: mdi:arrow-down-left
                 icon_height: 20px
                 name: Head Down
@@ -30,8 +30,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_legsup
+                  action: call-service
+                  service: pyscript.bed_legs_up
                 icon: mdi:arrow-up-right
                 icon_height: 20px
                 name: Legs Up
@@ -39,8 +39,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_legsdown
+                  action: call-service
+                  service: pyscript.bed_legs_down
                 icon: mdi:arrow-down-right
                 icon_height: 20px
                 name: Legs Down
@@ -50,8 +50,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_preset1
+                  action: call-service
+                  service: pyscript.bed_preset1
                 icon: mdi:numeric-1-circle
                 icon_height: 20px
                 name: Preset 1
@@ -59,8 +59,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_preset2
+                  action: call-service
+                  service: pyscript.bed_preset2
                 icon: mdi:numeric-2-circle
                 icon_height: 20px
                 name: Preset 2
@@ -68,8 +68,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_preset3
+                  action: call-service
+                  service: pyscript.bed_preset3
                 icon: mdi:numeric-3-circle
                 icon_height: 20px
                 name: Preset 3
@@ -77,8 +77,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_preset4
+                  action: call-service
+                  service: pyscript.bed_preset4
                 icon: mdi:numeric-4-circle
                 icon_height: 20px
                 name: ' Preset 4'
@@ -88,8 +88,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_vibrate1
+                  action: call-service
+                  service: pyscript.bed_vibrate1
                 icon: mdi:numeric-1-circle
                 icon_height: 20px
                 name: Vibrate 1
@@ -97,17 +97,17 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_vibrate2
-                icon: mdi:numeric-2-circle
+                  action: call-service
+                  service: pyscript.bed_vibrate2
                 icon_height: 20px
                 name: Vibrate 2
+                icon: mdi:numeric-2-circle
               - show_name: true
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_vibrate2
+                  action: call-service
+                  service: pyscript.bed_vibrate3
                 icon: mdi:numeric-3-circle
                 icon_height: 20px
                 name: Vibrate 3
@@ -115,8 +115,8 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_vibrate4
+                  action: call-service
+                  service: pyscript.bed_vibrate4
                 icon: mdi:numeric-4-circle
                 icon_height: 20px
                 name: Vibrate 4
@@ -126,17 +126,37 @@ views:
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
-                entity: switch.bed_flat
-                icon: mdi:bed
+                  action: call-service
+                  service: pyscript.bed_vibrate_feet_plus
+                icon: mdi:foot-print
                 icon_height: 20px
-                name: Bed Flat
+                name: Vibrate feet more
               - show_name: true
                 show_icon: true
                 type: button
                 tap_action:
-                  action: toggle
+                  action: call-service
+                  service: pyscript.bed_vibrate_head_plus
+                icon: mdi:head-plus
+                icon_height: 20px
+                name: Vibrate head more
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: call-service
+                  service: pyscript.bed_vibrate_off
                 entity: switch.bed_vibratestop
                 icon: mdi:bed
                 icon_height: 20px
-                name: ' Vibrate Off'
+                name: Vibrate Off
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: call-service
+                  service: pyscript.bed_flat
+                icon: mdi:bed
+                icon_height: 20px
+                name: Bed Flat
+title: Tempurpedic Controls
