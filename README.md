@@ -3,11 +3,12 @@
      alt="my screen"
      width="400"/>
 
-Tempurpedic control is a set of python scripts. 
-Each script sends the title command to a Tempurpedic adjustable bed frame.  
+As of June 2025 I have changed Tempurpedic control to use the HACS component pyscript
+The file send_packet.py is a set of one line python scripts. 
+Each script sends a UDP packet command to a Tempurpedic adjustable bed frame.  
 
- - bedflat.py      --- <i>lowers both head and feet</i>
- - bedheaddown.py  --- <i>Lower the upper body</i>
+ - @bed_flat      --- <i>lowers both head and feet</i>
+ - @bed_head_down.py  --- <i>Lower the upper body</i>
  - bedheadup.py    --- <i>Raise the upper body</i>
  - bedlegsdown.py  --- <i>Lower the legs</i>
  - bedlegsup.py    --- <i>Raise the legs</i>
